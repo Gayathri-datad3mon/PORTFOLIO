@@ -1,69 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Gayathri Penumur | Security Analyst Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Security Analyst with experience in SOC operations, incident response, SIEM, and cloud security.">
 
+  <title>Gayathri Naidu - Cybersecurity Portfolio</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/require.css">
   <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
 
-<header class="header">
-  <div class="container">
-    <h1>Gayathri Penumur</h1>
-    <p>Security Analyst | SOC | Incident Response</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="certificates.html">Certifications</a>
-      <a href="contact.html">Contact</a>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="./index.html" class="active">Home</a></li>
+        <li class="nav-item"><a href="./certificates.html">Certifications</a></li>
+        <li class="nav-item"><a href="./projects.html">Projects</a></li>
+        <li class="nav-item"><a href="./work.html">Work Experience</a></li>
+        <li class="nav-item"><a href="./contact.html">Contact</a></li>
+      </ul>
     </nav>
-  </div>
-</header>
+  </header>
 
-<section class="hero">
-  <div class="container">
-    <h2>Security Analyst with 2+ Years of Experience</h2>
-    <p>
-      Hands-on experience in SOC operations, SIEM monitoring, threat hunting,
-      cloud security, and incident response across enterprise environments.
-    </p>
-    <a class="btn" href="./assets/GayathriPenumur.pdf" target="_blank">Download Resume</a>
-  </div>
-</section>
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section hero" aria-label="home">
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-subtitle">👋, My name is Gayathri Naidu</p>
+          <h1 class="headline-lg">Master's in Cybersecurity</h1>
+          <p class="hero-text body-md">Based in Saint Louis, United States of America(USA).</p>
+          <a href="./assets/images/GayathriPenumur.pdf" class="btn btn-primary">My Resume</a>
+        </div>
+        <figure class="hero-banner">
+          <img src="./assets/images/hero-banner.png" width="500" height="700" alt="Gayathri" class="w-100">
+        </figure>
+      </div>
+    </section>
 
-<section class="about">
-  <div class="container">
-    <h2>Professional Summary</h2>
-    <p>
-      Security Analyst with strong experience in Microsoft Sentinel, Splunk,
-      EDR/XDR, IAM logs, cloud telemetry, and SOP-driven incident response.
-      Adept at alert triage, false-positive reduction, and threat investigation.
-    </p>
-  </div>
-</section>
+    <!-- SKILLS SECTION -->
+    <section class="section skill" aria-labelledby="skill-label">
+      <div class="container">
+        <div class="skill-content">
+          <h2 class="section-title headline-md" id="skill-label">My Skills</h2>
+          <ul class="skill-list">
+            <li>
+              <div class="card card-sm" style="background-color: hsl(177, 39%, 72%)">
+                <div class="card-media"><ion-icon name="logo-html5"></ion-icon></div>
+                <h2 class="card-title">HTML5</h2>
+              </div>
+            </li>
+            <li>
+              <div class="card card-sm" style="background-color: hsl(41, 99%, 64%)">
+                <div class="card-media"><ion-icon name="logo-css3"></ion-icon></div>
+                <h2 class="card-title">CSS3</h2>
+              </div>
+            </li>
+            <li>
+              <div class="card card-sm" style="background-color: hsl(19, 97%, 85%)">
+                <div class="card-media"><ion-icon name="logo-react"></ion-icon></div>
+                <h2 class="card-title">JS (JavaScript)</h2>
+              </div>
+            </li>
+            <li>
+              <div class="card card-sm" style="background-color: hsl(221, 100%, 79%)">
+                <div class="card-media"><ion-icon name="logo-angular"></ion-icon></div>
+                <h2 class="card-title">Python</h2>
+              </div>
+            </li>
+            <li>
+              <div class="card card-sm" style="background-color: hsl(76, 39%, 72%)">
+                <div class="card-media"><ion-icon name="logo-apple"></ion-icon></div>
+                <h2 class="card-title">MySQL</h2>
+              </div>
+            </li>
+            <li>
+              <div class="card card-sm" style="background-color: hsl(245, 100%, 90%)">
+                <div class="card-media"><ion-icon name="logo-android"></ion-icon></div>
+                <h2 class="card-title">Kali Linux</h2>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <figure class="skill-banner">
+          <img src="./assets/images/skill-banner.png" width="900" height="657" loading="lazy" alt="Skills" class="w-100">
+        </figure>
+      </div>
+    </section>
 
-<section class="skills">
-  <div class="container">
-    <h2>Core Skills</h2>
-    <ul>
-      <li>SIEM: Microsoft Sentinel, Splunk, ELK, Wazuh</li>
-      <li>Incident Response & Threat Hunting</li>
-      <li>EDR/XDR, IDS/IPS, DLP</li>
-      <li>MITRE ATT&CK, Cyber Kill Chain</li>
-      <li>Azure & AWS Security (Foundational)</li>
-      <li>KQL, SPL, Python, PowerShell</li>
-    </ul>
-  </div>
-</section>
+  </main>
 
-<footer class="footer">
-  <p>© 2025 Gayathri Penumur</p>
-</footer>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <ul class="social-list">
+        <li><a href="https://www.facebook.com/share/eCXurhqLKJAvZKA6" class="social-link" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/gayathri___penumur" class="social-link" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="http://www.linkedin.com/in/gayathripenumur" class="social-link" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li><a href="https://github.com/jaanunaanu" class="social-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+      </ul>
+      <p class="text-center">&copy; 2025 All rights reserved</p>
+    </div>
+  </footer>
 
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
